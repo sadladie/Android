@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:text="РЕЗУЛЬТАТ" />
+
+    <TextView
+        android:id="@+id/resultLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="60dp"
+        android:text="3 / 5" />
+
+    <TextView
+        android:id="@+id/totalScoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:text="Общий счет: 333" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="80dp"
+        android:text="ГЛАВНОЕ МЕНЮ"/>
+
+
+</LinearLayout>

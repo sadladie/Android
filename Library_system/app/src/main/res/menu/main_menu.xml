@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_quest"
+            android:icon="@drawable/ic_menu_take_a_quest"
+            android:title="@string/st_take_a_quest" />
+
+    </group>
+
+
+    <item
+        android:id="@+id/nav_about_library"
+        android:icon="@drawable/ic_menu_about_library"
+        android:title="@string/st_about_library">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_about_us"
+                    android:icon="@drawable/ic_menu_about_us"
+                    android:title="@string/st_about_us" />
+
+                <item
+                    android:id="@+id/nav_location"
+                    android:icon="@drawable/ic_menu_location"
+                    android:title="@string/st_location" />
+
+                <item
+                    android:id="@+id/nav_contacts"
+                    android:icon="@drawable/ic_menu_contacts"
+                    android:title="@string/st_contacts" />
+
+                <item
+                    android:id="@+id/nav_books_ex"
+                    android:icon="@drawable/ic_menu_books"
+                    android:title="@string/st_books" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

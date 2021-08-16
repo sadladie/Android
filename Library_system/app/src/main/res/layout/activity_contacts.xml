@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:textAlignment="center"
+    tools:context=".Contacts_Activity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/books_actionBar"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            app:lottie_rawRes="@raw/email"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true" />
+        <TextView
+            android:id="@+id/title_contacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/st_contacts"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/title_post_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/st_title_post_address"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/post_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_post_address"
+            android:orientation="horizontal"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/title_telephones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_text_emails"
+            android:orientation="horizontal"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/t_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_con_one"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/t_one_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_mail_one"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="20dp"
+            android:textColorLink="@color/black"/>
+
+        <TextView
+            android:id="@+id/t_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/st_con_two"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/t_two_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_mail_two"
+            android:textColorLink="@color/black"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/t_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_con_three"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/t_three_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_mail_three"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="20dp"
+            android:textColorLink="@color/black"/>
+
+        <TextView
+            android:id="@+id/t_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/st_con_four"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/t_four_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_mail_four"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="20dp"
+            android:textColorLink="@color/black"/>
+
+        <TextView
+            android:id="@+id/t_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/st_con_five"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/t_five_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_mail_five"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="20dp"
+            android:textColorLink="@color/black"/>
+
+        <TextView
+            android:id="@+id/t_six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/st_con_six"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/t_six_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_mail_six"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="20dp"
+            android:textColorLink="@color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>

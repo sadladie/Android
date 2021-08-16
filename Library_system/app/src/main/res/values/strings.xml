@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Библиотека</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!--Navigation menu-->
+    <string name="st_take_a_quest">Пройти квест</string>
+    <string name="st_about_library">О библиотеке</string>
+    <string name="st_about_us">О нас</string>
+    <string name="st_location">Библиосеть</string>
+    <string name="st_contacts">Контакты</string>
+    <string name="st_books">Книги</string>
+    <string name="st_nav_account">Аккаунт</string>
+    <string name="st_login">Войти</string>
+    <string name="st_logout">Выйти</string>
+    <string name="st_nav_profile">Профиль</string>
+
+    <string name="st_header_title">Электронная городская библиотека</string>
+
+
+    <!--First Activity-->
+    <string name="st_btn_start_game">Пройти квест</string>
+    <string name="st_label_quest_f">Квест-игра</string>
+    <string name="st_label_quest_s">В ЛАБИРИНТЕ ВРЕМЕНИ</string>
+
+    <!--Second activity /// About us-->
+    <string name="st_title_history">Библиотека сегодня</string>
+    <string name="st_text_history">
+        <b>МБУ «Централизованная библиотечная система» (ЦБС) </b>– это крупнейшее библиотечное учреждение города. ЦБС объединяет 19 библиотек: Центральную городскую библиотеку, Центральную детскую библиотеку, 11 массовых библиотек-филиалов и 6 детских филиалов. Обслуживание читателей ведется на двух языках – русском и татарском.
+    </string>
+    <string name="st_text_history_two">
+        Сегодня – это современная библиотека, где собрана литература на традиционных и электронных носителях, на двух государственных языках: русском и татарском. Общий фонд составляет 756158 экз. книг по многим отраслям знаний. В состав электронной библиотеки входит 862 электронных изданий. Ежегодно выписывается более 40 наименований газет и 175 наименований журналов. </string>
+    <string name="st_text_history_three">
+К услугам пользователей:
+– новейшие издания по экономике, политологии, праву, истории, философии, психологии, литературоведению;
+– универсальные и отраслевые энциклопедии, справочники, словари, в том числе репринтные издания энциклопедичных словарей Брокгауза  и Эфрона;
+– аудио-и электронные книги, видеоиздания;
+– система каталогов и картотек;
+– электронный каталог,
+– электронный читальный зал.
+</string>
+
+
+    <!--Third activity /// Location-->
+
+
+    <!--Fourth activity /// Contacts-->
+    <string name="st_title_post_address">Почтовый адрес:</string>
+    <string name="st_post_address">423807, Республика Татарстан, город Набережные Челны, бульвар Ямашева, дом №4/14А.</string>
+    <string name="st_text_emails">Электронная почта</string>
+
+    <string name="st_con_one"><b>Директор</b>:</string>
+    <string name="st_mail_one">library-CBS@mail.ru</string>
+
+    <string name="st_con_two"><b>Заместитель директора</b>:</string>
+    <string name="st_mail_two">library-zam@mail.ru</string>
+
+    <string name="st_con_three"><b>Абонемент ЦГБ</b>:</string>
+    <string name="st_mail_three">BS_abonement@mail.ru</string>
+
+    <string name="st_con_four"><b>Справочно-информационный отдел</b>:</string>
+    <string name="st_mail_four">library-SIO@mail.ru</string>
+
+    <string name="st_con_five"><b>Читальный зал ЦГБ</b>:</string>
+    <string name="st_mail_five">CBS-read@mail.ru</string>
+
+    <string name="st_con_six"><b>Отдел кадров</b>:</string>
+    <string name="st_mail_six">library-kadr@mail.ru</string>
+
+
+    <!--LoginActivity-->
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Войти или зарегистрироваться</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="welcome">"Добро пожаловать !"</string>
+    <string name="invalid_username">Неправильное имя пользователя</string>
+    <string name="invalid_password">Пароль должен быть >5 символов</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="desc">logo</string>
+
+    <!--Books-->
+    <string name="chemodan">Чемодан</string>
+    <string name="dovlatov">Сергей Довлатов</string>
+    <string name="dov_desc">Навсегда уезжая из СССР в США, Сергей Довлатов берет только скромный старый чемодан с несколькими вещами: рубашкой, тремя парами носков, двубортным костюмом, котиковой шапкой. У каждой вещи есть своя история. И каждой посвящен отдельный рассказ этого сборника.
+
+Все вещи из чемодана отмечают разные периоды жизни героя: учебу в институте, службу в армии, работу в редакции газеты, встречу с будущей супругой. А житейские истории, связанные с их приобретением, ярко характеризуют целую эпоху, в которую довелось жить одному из самых талантливых российских писателей и публицистов до эмиграции за океан. </string>
+
+    <string name="intellect">Эстетический интеллект</string>
+    <string name="braun">Полин Браун</string>
+
+
+    <string name="pyt">Простой Python</string>
+    <string name="bill">Билл Любанович</string>
+
+
+    <string name="sap">Краткая история человечества</string>
+    <string name="uval">Юваль Ной Харари</string>
+
+    <string name="todo">TODO</string>
+    <string name="_570">570 страниц</string>
+    <string name="_592">592 страниц</string>
+    <string name="_300">300 страниц</string>
+    <string name="_110">110 страниц</string>
+    <string name="_540">540 страниц</string>
+    <string name="_330">330 страниц</string>
+    <string name="_60">60 страниц</string>
+    <string name="search_btn">Поиск</string>
+
+    <string name="ark">Триумфальная арка</string>
+    <string name="mari">Эрих Мария Ремарк</string>
+
+    <string name="uve">Вторая жизнь Уве</string>
+    <string name="fred">Фредрик Бакман</string>
+
+    <string name="sad">Вишневый сад</string>
+    <string name="cheh">Антон Чехов</string>
+
+</resources>
